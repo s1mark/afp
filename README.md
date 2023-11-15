@@ -38,7 +38,7 @@ Please use projects, issues, milestones to track the progress. Sometimes would b
 │── .gitignore
 └── main.tf
 ```
-This repository will be the team's workspace and everyone should work on the tasks in that space
+This repository will be the team's workspace and everyone should work on the tasks there
 
 ## Work
 Maybe you already found out that what the customer wants is basically can be covered with the github features
