@@ -64,10 +64,10 @@ Atleast a well structured README.md file should be created in the root of the re
 - pull request approval workflow
 
 ### terraform code
-Create a three example terraform codes that simply creates files
+Create three example terraform codes that simply creates files
 - simply use the [local_file](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file#example-usage) resource
-- use the `local_resource` but now with [variables](https://www.terraformbyexample.com/variables/)
-- create `n` number of files with the help of the [count](https://developer.hashicorp.com/terraform/language/meta-arguments/count#basic-syntax) meta-argument
+- use the `local_file` resource but now with [variables](https://www.terraformbyexample.com/variables/)
+- create `n` number of files with the `local_file` resource with the help of the [count](https://developer.hashicorp.com/terraform/language/meta-arguments/count#basic-syntax) meta-argument
 
 ### test code
 An extra step should be created in the pipeline named test or validation that would check if the files were created or not. For example a `bash` script could be used to check the existence of the files...
